@@ -161,6 +161,7 @@ function getCloudIcon(text) {
         "Moderate or heavy rain shower": "🌧️",
         "Light rain ": "🌧️",
         "Moderate rain": "🌧️",
+        "Drizzle": "🌧️",
         "Heavy rain": "🌨️", // Using cloud+rain emoji
         "Light freezing rain": "🌧️",
         "Moderate or heavy freezing rain": "🌧️",
