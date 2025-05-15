@@ -222,7 +222,7 @@ function getCurrentDate() {
 
 
 async function getFetchData(city) {
-    const apiUrl = `http://localhost:3001/api/current?city=${city}` ;
+    const apiUrl = `https://weatherly-app-backend.onrender.com/api/current?city=${city}` ;
     try {
         const response = await fetch(apiUrl);
         return response.json();
@@ -269,7 +269,7 @@ async function updateWeatherInfo(city) {
 
 
 async function getFetchForecastData(city) {
-    const apiForecastUrl = `http://localhost:3001/api/forecast?city=${city}` ;
+    const apiForecastUrl = `https://weatherly-app-backend.onrender.com/api/forecast?city=${city}` ;
     try {
         const response = await fetch(apiForecastUrl);
         return response.json();
