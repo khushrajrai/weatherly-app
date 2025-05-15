@@ -564,7 +564,7 @@ body.chatbot-open {
     }
 
     .searchbar {
-        width: 77vw;
+        width: 75vw;
     }
 
     .city-search {
@@ -573,8 +573,8 @@ body.chatbot-open {
     }
 
     .search-icon {
-        font-size: 1.3rem;
-        margin-left: 40px;
+        font-size: 1.2rem;
+        margin-left: 35px;
         margin-right: 6px;
         
     }
