@@ -575,6 +575,8 @@ body.chatbot-open {
     .search-icon {
         font-size: 1.3rem;
         margin-left: 40px;
+        margin-right: 6px;
+        
     }
 
     .weather-detail-box {
